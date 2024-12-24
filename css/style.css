@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+}
+body{
+  background:#8C51FE;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logoGif{
+  width: 250px;
+  margin: 12px 0 16px 0;
+}
+main{
+  width: 375px;
+  height: 712px;
+  background: #F4F4F4;
+  margin-bottom: 54px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:  10px;
+}
+label{
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+/* span{ 
+  font-weight: 700;
+  font-size: 14px;
+} */
+select, input{
+  width: 327px;
+  height: 40px;
+  outline: none;
+  border: 1px solid #BBBBBB;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 6px;
+}
+button{
+  color: #FFFFFF;
+  background:#772FD3 ;
+  width: 327px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 16px 0 16px 0;
+}
+.resultado{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #772FD3;
+  width: 327px;
+  border-radius: 20px;
+  margin-bottom: 23px;
+  padding: 12px;
+}
+.valorParaConverter, .valorConvertido{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.valorParaConverter img, .valorConvertido img{
+  width: 44px;
+  /* box-shadow: 0 4px 0 16p rgba(0, 0, 0, 0.25) ; */
+}
+.tipoMoeda{
+  font-size: 14px;
+  color:#777777 ;
+  padding: 2px;
+}
+.moedaParaConverter, .moedaConvertida{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 18px;
+  color:#555555 ;
+}
+.seta{
+  padding: 10px;
+}

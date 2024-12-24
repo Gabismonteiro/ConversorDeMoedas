@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Conversor de Moedas</title>
+  </head>
+  <body>
+    <div class="logo">
+      <img
+        src="./assets/logo.gif"
+        alt="Duas mãos segurando o dinheiro e balançando"
+        class="logoGif"
+      />
+    </div>
+    <main>
+      <label>
+        Converter de
+        <select>
+          <option value="real">R$ Real Brasileiro</option>
+        </select>
+      </label>
+
+      <label>
+        Converter para
+        <select class="moedaSelecionada">
+          <option value="dolar">US$ Dolar Americano</option>
+          <option value="euro"> € Euro</option>
+          <option value="bitcoin">Bitcoin</option>
+        </select>
+      </label>
+
+      <label>
+        Valor
+        <input type="text" />
+      </label>
+
+      <button class="converterValores">Converter</button>
+
+      <div class="resultado">
+        <div class="valorParaConverter">
+          <img src="./assets/bandeira-brasil.png" alt="Bandeira do Brasil">
+          <p>Real</p>
+          <p class="moedaParaConverter">R$ 0,00</p>
+        </div>
+        <div class="seta">
+          <img src="./assets/seta.png" alt="Uma seta">
+        </div>
+        <div class="valorConvertido">
+          <img src="./assets/bandeira-estadosunidos.png" alt="Bandeira dos Estados Unidos" class="imagemMoeda">
+          <p class="tipoMoeda">Dolar</p>
+          <p class="moedaConvertida">US$ 0,00</p>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
